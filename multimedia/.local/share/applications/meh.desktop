@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=meh
+Exec=meh %U
+Type=Application
+Terminal=false
+Categories=Graphics;Viewer;
+MimeType=image/jpeg;image/png;image/bmp;image/gif;image/tiff;image/x-portable-anymap;

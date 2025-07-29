@@ -9,3 +9,7 @@
 --     vim.api.nvim_set_hl(0, "LineNr", { fg = "#FFA500" }) -- Orange color
 --   end,
 -- })
+
+-- config/options.lua
+local opt = vim.opt
+opt.shell = "/usr/bin/fish" -- Replace with the actual path to Fish if different
