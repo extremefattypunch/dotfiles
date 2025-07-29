@@ -6,6 +6,10 @@ flex your arch system!
 ```
 sudo pacman -S fastfetch
 ```
+and see to your cpu and gpu usage live
+```
+sudo pacman -S conky
+```
 ## pre-installation & iso-burning
 on your windows machine you will need
 - rufus
@@ -29,6 +33,13 @@ sudo pacman -S git
 yay -S github-desktop visual-studio-code-bin
 ```
 i know vscode cringe...but some stuff like `julia repl` is just easier run in visual-studio-code. it's all set up for you...compared to having to lots of config in neovim
+## autostartup services
+if not already installed with ml4w do
+```
+sudo pacman -S networkmanager
+sudo systemctl enable NetworkManager.service
+```
+which starts NetworkManager connecting to wifi on startup automatically
 ## zathura
 ```
 sudo pacman -S zathura zathura-pdf-poppler
