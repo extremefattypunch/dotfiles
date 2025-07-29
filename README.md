@@ -44,6 +44,17 @@ which starts NetworkManager connecting to wifi on startup automatically
 ```
 sudo pacman -S zathura zathura-pdf-poppler
 ```
+## other multimedia
+image viewer. note there are the dotfiles for the custom meh.desktop just like zathura wrapper above. See mimeapps.list(default apps list) for more
+```
+git clone https://github.com/jhawthorn/meh
+cd meh
+sudo make install
+```
+video player
+```
+pacman -S mpv
+```
 ## qutebrowser
 ```
 sudo pacman -S qutebrowser pass python-tldextract pdfjs
