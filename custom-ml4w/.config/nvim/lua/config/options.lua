@@ -1,0 +1,11 @@
+-- Options are automatically loaded before lazy.nvim startup
+-- Default options that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/options.lua
+-- Add any additional options here
+
+-- Ensure the highlight is applied after the colorscheme loads
+-- vim.api.nvim_create_autocmd("ColorScheme", {
+--   pattern = "*",
+--   callback = function()
+--     vim.api.nvim_set_hl(0, "LineNr", { fg = "#FFA500" }) -- Orange color
+--   end,
+-- })
