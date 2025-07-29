@@ -23,6 +23,11 @@ always choose the internal drive not the external drive used
 use `gdm` as greeter for your `hyprland` desktop. if you have higher end GPUs use the nvidia opensource(turing+) driver option if not by default go for nvidia propietary driver
 - network
 just copy iso set-up
+## git stuff
+```
+sudo pacman -S git
+yay -S github-desktop visual-studio-code-bin
+```
 ## zathura
 ```
 sudo pacman -S zathura zathura-pdf-poppler
