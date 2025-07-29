@@ -1,0 +1,7 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=ZathuraWrapper
+Exec=/usr/bin/zathura-wrapper %U
+Icon=org.pwmt.zathura
+Terminal=false
