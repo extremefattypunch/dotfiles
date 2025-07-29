@@ -30,6 +30,7 @@ settings:
         yt: tab-clone
   content.javascript.clipboard:
     https://chatgpt.com: access-paste
+    https://github.com: access-paste
     https://grok.com: access-paste
     https://lucide.dev: access-paste
     https://outlook.office.com: access-paste
