@@ -51,7 +51,7 @@ git clone https://github.com/jhawthorn/meh
 cd meh
 sudo make install
 ```
-video player
+video and audio player
 ```
 pacman -S mpv
 ```
