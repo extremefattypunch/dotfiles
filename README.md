@@ -28,6 +28,7 @@ just copy iso set-up
 sudo pacman -S git
 yay -S github-desktop visual-studio-code-bin
 ```
+i know vscode cringe...but some stuff like `julia repl` is just easier run in visual-studio-code. it's all set up for you...compared to having to lots of config in neovim
 ## zathura
 ```
 sudo pacman -S zathura zathura-pdf-poppler
