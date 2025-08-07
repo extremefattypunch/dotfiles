@@ -20,6 +20,11 @@ when burning iso in rufus pick image dd not iso copy mode! now go to BIOS and bo
 - `station wlan0 show-networks`
 - `station wlan0 connect <ssd-name>`
 
+## kitty terminal emulator
+```
+git clone --depth 1 https://github.com/dexpota/kitty-themes.git ~/.config/kitty/kitty-themes
+```
+
 ## desktop manager GDM
 ```
 yay -S gdm-settings
