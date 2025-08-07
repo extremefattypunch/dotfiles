@@ -28,6 +28,8 @@ settings:
         w: tab-give
         x: tab-close
         yt: tab-clone
+  content.geolocation:
+    https://www.embl.org: true
   content.javascript.clipboard:
     https://chatgpt.com: access-paste
     https://forum.obsidian.md: access-paste
@@ -35,13 +37,22 @@ settings:
     https://grok.com: access-paste
     https://lucide.dev: access-paste
     https://outlook.office.com: access-paste
+    https://www.geeksforgeeks.org: access-paste
+    https://www.linkedin.com: access-paste
   content.javascript.enabled:
     global: true
+  content.media.audio_capture:
+    https://app.slack.com: true
+  content.media.audio_video_capture:
+    https://app.slack.com: true
+  content.notifications.enabled:
+    https://calendar.google.com: true
   content.register_protocol_handler:
     https://calendar.google.com?cid=%25s: false
     https://mail.google.com?extsrc=mailto&url=%25s: true
     https://outlook.live.com?mailtouri=%25s: true
     https://outlook.office.com?mailtouri=%25s: false
+    https://webmail.embl.de#compose/to/%25s: true
   input.mode_override:
     quite://pdfjs/web/viewer.html: passthrough
   scrolling.smooth:
