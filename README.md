@@ -4,7 +4,7 @@ you may have to remove existing simlinks first, sometimes even manually but it s
 # Dependencies
 flex your arch system!
 ```
-sudo pacman -S fastfetch
+yay -S neofetch
 ```
 and see to your cpu and gpu usage live
 ```
@@ -19,7 +19,13 @@ when burning iso in rufus pick image dd not iso copy mode! now go to BIOS and bo
 - connect wifi using `iwctl` then do `iwctl show devices` say you are on `wlan0` then do
 - `station wlan0 show-networks`
 - `station wlan0 connect <ssd-name>`
-  
+
+## desktop manager GDM
+```
+yay -S gdm-settings
+```
+to customize config
+
 ## archinstall config notes
 - partition
 always choose the internal drive not the external drive used
@@ -33,6 +39,8 @@ sudo pacman -S git
 yay -S github-desktop visual-studio-code-bin
 ```
 i know vscode cringe...but some stuff like `julia repl` is just easier run in visual-studio-code. it's all set up for you...compared to having to lots of config in neovim
+
+github-desktop is the only one that does pulling pushing the most reliably. the gui is also intuitive
 ## autostartup services
 if not already installed with ml4w do
 ```
