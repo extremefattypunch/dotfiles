@@ -31,6 +31,12 @@ yay -S gdm-settings
 ```
 to customize config
 
+## fonts
+```
+sudo pacman -S ttf-jetbrains-mono-nerd
+fc-list | grep "JetBrains Mono"
+```
+
 ## archinstall config notes
 - partition
 always choose the internal drive not the external drive used
