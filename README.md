@@ -20,6 +20,13 @@ when burning iso in rufus pick image dd not iso copy mode! now go to BIOS and bo
 - `station wlan0 show-networks`
 - `station wlan0 connect <ssd-name>`
 
+## autostartups
+```
+sudo systemctl --user enable --now syncthing.service
+sudo systemctl enable --now NetworkManager.service
+sudo systemctl enable --now bluetooth.service
+```
+
 ## kitty terminal emulator
 ```
 git clone --depth 1 https://github.com/dexpota/kitty-themes.git ~/.config/kitty/kitty-themes
