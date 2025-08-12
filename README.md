@@ -38,10 +38,11 @@ yay -S gdm-settings
 ```
 to customize config
 
-## fonts
+## fonts and emoji
 ```
 sudo pacman -S ttf-jetbrains-mono-nerd
 fc-list | grep "JetBrains Mono"
+yay -S emote
 ```
 
 ## archinstall config notes
