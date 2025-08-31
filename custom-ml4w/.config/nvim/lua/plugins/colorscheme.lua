@@ -17,7 +17,7 @@ return {
     -- you can set set configuration options here
     -- config = function()
     --   vim.g.zenbones_darken_comments = 45
-    --   vim.cmd.colorscheme("zenbones")
+    --   vim.cmd.colorscheme("tokyobones")
     -- end,
   },
   {
@@ -66,7 +66,7 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "neobones",
+      colorscheme = "catppuccin-mocha",
     },
   },
 }

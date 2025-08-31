@@ -18,6 +18,7 @@ image/*=meh.desktop
 image/gif=meh.desktop
 image/bmp=meh.desktop
 image/tiff=meh.desktop
+text/plain=pymol.desktop
 
 [Added Associations]
 application/x-shellscript=nvim.desktop;

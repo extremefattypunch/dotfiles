@@ -55,12 +55,6 @@
     "separate-outputs": true
   },
 
-  // ML4W Welcome App
-  "custom/ml4w-welcome": {
-    "on-click": "flatpak run com.ml4w.sidebar",
-    "format": " ",
-    "tooltip-format": "Open ML4W Sidebar App"
-  },
 
   // Empty
   "custom/empty": {
@@ -83,15 +77,6 @@
   },
 
   // Updates Count
-  "custom/updates": {
-    "format": "  {}",
-    "escape": true,
-    "return-type": "json",
-    "exec": "~/.config/ml4w/scripts/updates.sh",
-    "interval": 1800,
-    "on-click": "~/.config/ml4w/settings/installupdates.sh",
-    "on-click-right": "~/.config/ml4w/settings/software.sh"
-  },
 
   // Wallpaper
   "custom/wallpaper": {
@@ -122,19 +107,6 @@
     "tooltip": false
   },
 
-  // ChatGPT Launcher
-  "custom/chatgpt": {
-    "format": " ",
-    "on-click": "~/.config/ml4w/settings/ai.sh",
-    "tooltip-format": "AI Support"
-  },
-
-  // Calculator
-  "custom/calculator": {
-    "format": "",
-    "on-click": "qalculate-gtk",
-    "tooltip-format": "Open calculator"
-  },
 
   // Windows VM
   "custom/windowsvm": {
@@ -143,23 +115,6 @@
     "tooltip": false
   },
 
-  // Rofi Application Launcher
-  "custom/appmenu": {
-    // START APPS LABEL
-    "format": "Apps",
-    // END APPS LABEL
-    "on-click": "sleep 0.2;pkill rofi || rofi -show drun -replace",
-    "on-click-right": "~/.config/hypr/scripts/keybindings.sh",
-    "tooltip-format": "Left: Open the application launcher\nRight: Show all keybindings"
-  },
-
-  // Rofi Application Launcher
-  "custom/appmenuicon": {
-    "format": "",
-    "on-click": "sleep 0.2;rofi -show drun -replace",
-    "on-click-right": "~/.config/hypr/scripts/keybindings.sh",
-    "tooltip-format": "Left: Open the application launcher\nRight: Show all keybindings"
-  },
 
   // Power Menu
   "custom/exit": {
@@ -296,14 +251,6 @@
     ]
   },
 
-  // Group Links
-  "group/links": {
-    "orientation": "horizontal",
-    "modules": [
-      //"custom/chatgpt",
-      "custom/empty"
-    ]
-  },
 
   // Group Settings
   "group/settings": {
